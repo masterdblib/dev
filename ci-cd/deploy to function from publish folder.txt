@@ -1,0 +1,1 @@
+src/app/MasterDbLib.Function/bin/Debug/net462/publish

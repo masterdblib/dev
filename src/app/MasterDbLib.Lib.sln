@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterDbLib.Lib", "MasterDbLib.Lib\MasterDbLib.Lib.csproj", "{40DF574D-8A76-4D91-8BFF-46F394A847BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterDbLib", "MasterDbLib\MasterDbLib.csproj", "{C2505A1A-70D5-4C8F-B1EE-6D6A33CEDD38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "paket", "paket", "{8AEEB7A3-E2A6-46D9-A167-7364817B26E1}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40DF574D-8A76-4D91-8BFF-46F394A847BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DF574D-8A76-4D91-8BFF-46F394A847BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DF574D-8A76-4D91-8BFF-46F394A847BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DF574D-8A76-4D91-8BFF-46F394A847BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2505A1A-70D5-4C8F-B1EE-6D6A33CEDD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2505A1A-70D5-4C8F-B1EE-6D6A33CEDD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2505A1A-70D5-4C8F-B1EE-6D6A33CEDD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2505A1A-70D5-4C8F-B1EE-6D6A33CEDD38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD889A1D-189D-490C-AF86-BA97009CB81B}
+	EndGlobalSection
+EndGlobal
